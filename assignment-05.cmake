@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.0)
+
+set(MY_ADDITIONAL_SOURCES
+    # Please add your source files here
+    rt/materials/dummy.cpp
+    rt/lights/directional.cpp
+    rt/lights/pointlight.cpp
+    rt/lights/spotlight.cpp
+    rt/lights/projectivelight.h
+    rt/integrators/raytrace.cpp
+)
+
+set(ASSIGNMENT_SOURCES
+    rt/materials/material.h
+    rt/materials/dummy.h
+    rt/lights/light.h
+    rt/lights/directional.h
+    rt/lights/pointlight.h
+    rt/lights/spotlight.h
+    rt/integrators/raytrace.h
+    rt/lights/projectivelight.h
+    ${MY_ADDITIONAL_SOURCES}
+    main/a_lighting.cpp
+)
