@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip to Vrindavan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-rc.css">
+    
+<!--
+
+-->
+</head>
+<body>    
+    <!-- Intro -->
+    <div class="header">
+  <a class="logo" href="#intro">Trip to Vrindavan</a>
+  <div class="header-right">
+
+                <ul class="active" class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-1 mx-1"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4" class="active">Intro</a></li>
+                    <li class="inline-block mb-1 mx-1"><a href="#Scene_Building" class="tm-text-gold py-1 md:py-3 px-4" class="active">Scene Building</a></li>
+                    <li class="inline-block mb-1 mx-1"><a href="#Highlights" class="tm-text-gold py-1 md:py-3 px-4" class="active">Highlights</a></li>
+                    <li class="inline-block mb-1 mx-1"><a href="#Credits" class="tm-text-gold py-1 md:py-3 px-4" class="active">Credits</a></li>
+
+                </ul>
+
+  </div>
+
+    </div>
+
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="thumbnail.png">
+<!--         <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-1 mx-1"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Intro</a></li>
+                    <li class="inline-block mb-1 mx-1"><a href="#Scene Building" class="tm-text-gold py-1 md:py-3 px-4">Scene Building</a></li>
+                    <li class="inline-block mb-1 mx-1"><a href="#Highlights" class="tm-text-gold py-1 md:py-3 px-4">Highlights</a></li>
+                    <li class="inline-block mb-1 mx-1"><a href="#Credits" class="tm-text-gold py-1 md:py-3 px-4">Credits</a></li>
+
+                </ul>
+            </div>            
+        </nav> -->
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-50 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Trip To Vrindavan</h1>
+                    <p class="tm-text-gold tm-text-2xl">for Rendering Competition-Computer Graphics 1<br></p> <p class="tm-text-white tm-text-2xl"> By<br>Devikalyan Das<br> Pranay Raj Kamuni <br></p><p class="tm-text-gold tm-text-2xl"> Group 8 </p>
+                </div>    
+                <div class="bg-black bg-opacity-50 p-10 mb-5">
+                    <p class="text-white leading-8 text-xl font-light">
+                        The goal for the scene is to replicate our trip to Vrindavan, India (the abode of Lord Krishna) where we tried to show our boat trip on river Yamuna and capturing the beautiful scenic and serene beauty. To transform the idea into reality, we had brainstormed every idea possible and finally, decided to successfully recreate the scene based on whatever we learnt during our Computer Graphics course to achieve as much realism possible and also showcase different features of our ray-tracer. The scene was built around the statue and different features were added progressively to make it identical to the trip. <!--<a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">send us a message</a>.--> </p>
+                </div>
+                <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="./img/high_resolution.png" target="_blank" class="flex justify-center items-center bg-black bg-opacity-50 py-7 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="button"></i>
+                            <span>Full Resolution Image<br>1920 x 1080</span>
+                     
+                        </a>
+                    </div>
+                    </div>
+                    </div> 
+                    <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                <div class="text-center">
+                        <div class="inline-block">
+                        <a href="./img/low_resolution.png" target="_blank" class="flex justify-center items-center bg-black bg-opacity-50 py-7 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="button"></i>
+                            <span>Low Resolution Image<br>480 x 270 </span>
+                     
+                        </a>
+                    </div>
+                </div>  
+                </div>                 
+                 </div>               
+            </div>
+        </div>        
+    </div>
+    <div id="Scene_Building" class="parallax-window" data-parallax="scroll" data-image-src="img/scene_building.png">
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-50 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Scene Building</h1>
+                    <p class="text-white tm-text-2xl">(using Blender)</p>
+                </div>    
+                <div class="bg-black bg-opacity-50 p-10 mb-5">
+                        <p class="text-white leading-8 text-xl font-light">
+                        Instead of arranging the objects blindly in the ray tracer, we used Blender to compose the scene. The scene composed of around 1.9 million faces. 
+                        New obects were added progressively. All details can be found in scene_new_cp.obj file.
+                        <br><br>
+                        We observed that a few objects did not have enough details, so we performed mesh subdivision in blender to make the scene realistic. We also used a 
+                        python script in blender to get the correct camera position and vectors such that they can be directly used in our ray tracer.
+                        <br><br>
+                        We enabled bump mapping on our objects by making changes to the obj.cpp file such that it takes in Textures library as a parameter similar to the Material library 
+                        and apply bump mapping based on the name of the objects. We observed that a few objects displayed tessellation, so we selectively applied smooth triangles on it to remove this effect.
+                        <br><br>
+                        To give a realistic effect to our scene we used a Depth of field camera focusing on the statue which blurs the mountains in the background, used a spherical area
+                        light to produce soft shadows, and applied bump mapping on boat, rock, flowers and mountains.
+                        <br><br>
+                        To bring the effect of playing in the river to life we created waterdroplets using blender, and since we were using a pinhole camera instead of a camera with lens, we introduced a
+                        plane infront of the camera with water droplets on it and generated the image.
+
+                        <br><br> We did not implement any new concepts other than the one which we studied during our course.<br>
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow"><b> 
+                        ./models/scene_new_cp.obj<br>
+                        ./main/a_scene.cpp<br>
+                        ./rt/loaders/obj.cpp </b></h3></p>
+                </div>
+              
+                <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-item-container">
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a class="flex justify-center items-center bg-black bg-opacity-50 py-7 px-8 rounded-lg font-semibold tm-text-2xl tm-text-white ">
+
+                            <i class="button"></i>
+                            <span>Primitives:<br> 1.9 Million </span>
+                     
+                        </a>
+                    </div>
+                    </div>
+                    </div> 
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-item-container">
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a class="flex justify-center items-center bg-black bg-opacity-50 py-7 px-8 rounded-lg font-semibold tm-text-2xl tm-text-white ">
+
+                            <i class="button"></i>
+                            <span>Samples:<br> 2000 </span>
+                     
+                        </a>
+                    </div>
+                    </div>
+                    </div>                 
+                 </div> 
+             </div>
+        </div>        
+    </div>
+    <!-- Highlights -->
+    <div id="Highlights" class="parallax-window" data-parallax="scroll" data-image-src="img/highlights.png" >
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-black py-6 px-12 text-4xl font-medium inline-block rounded-md">Highlights</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-start mb-3 tm-menu-item">
+                        <a href="./img/light.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/light_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">Lights</h3>
+                        <p class="text-white leading-8 text-sm font-light">
+                        In our scene we used one AreaLight and one point light. The lights are focussing from a very distant region with high intensity to give realistic effect. This part of the image denotes the soft shadows due to area light.
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/lights/arealight.h
+                        ./rt/lights/pointlight.h
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-start mb-3 tm-menu-item">
+                        <a href="./img/texture.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/tex_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">Textures</h3>
+                        <p class="text-white leading-8 text-sm font-light">
+                        We applied different image textures on to the objects based on triangle coordmappers which helped to enhance their realistic effect. The left and right part denotes without and with textures and mappers respectively.  
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/textures/imagetex.h
+                        ./rt/coordmappers/tmapper.h
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-start mb-3 tm-menu-item">
+                        <a href="./img/smooth_triangles.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/smooth_triangles_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-1 sm:ml-3 tm-text-yellow">Smooth Triangles</h3>
+                        <p class="text-white leading-8 text-sm font-light">
+                        We used them to correct the tessellation which result due to normal triangle mapping. The left part of the image is without smooth triangle and the right one is with. The difference of this effect on the legs of the statue and the surface of the river can be seen.
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b> 
+                        ./solids/striangle.h </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row justify-around items-center">
+
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-start mb-3 tm-menu-item">
+                    <img src="img/perlin.png" alt="Image" class="rounded-lg">
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow">Environment Maps <br> and <br> Perlin noise</h3>
+                        <p class="text-white leading-8 text-lg font-light">
+                        It will be incomplete without environment maps, as these provide the background(sky) when the ray find no intersection. We used Perlin noise as the background colour for their ability to mimic cloud like effects.  
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/coordmappers/environmental.h
+                        ./rt/textures/perlin.h
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-start mb-3 tm-menu-item">
+                        <a href="./img/bump.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/bump_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">Bump Maps</h3>
+                        <p class="text-white leading-8 text-lg font-light">
+                        We like the effects of bump maps and hence used them on more than one objects( stone, mountain, boat and flowers). We faced issues while implementing them hence, modified the obj.cpp such that it can be applied to the objects of our scene correctly.   
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/loaders/obj.cpp
+                        ./rt/primmod/bmap.h
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <a href="./img/material.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/material_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">Materials</h3>
+                        <p class="text-white leading-8 text-sm font-light">
+                        Different types of materials to achieve the desired effect in our scene. Glass material for river and water droplets on the camera lens. Cook torrance material for the statue. Remaining objects are made up of lambertian material.  
+
+                        <h3 class="text-center sm:text-l mb-1 sm:ml-3 tm-text-yellow"><b>          ./rt/materials/glass.h
+                        ./rt/materials/cooktor.h
+                        ./rt/materials/lambertian.h
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row justify-around items-center">
+
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-start mb-3 tm-menu-item">
+                    <img src="img/open_mp.png" alt="Image" class="rounded-lg">
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">Performance Gains</h3>
+                        <p class="text-white leading-8 text-lg font-light">
+                        To boost the speed of our renderer we used acceleration structure, BVH using the Surface Area Heuristic to load the primitives of our scene. Inaddition to this, we also implemented multi-threading using Open MP for parallelizing the renderer such that we reap the benefits of multi-cores in our cpu.  
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/groups/bvh.h
+                        ./rt/renderer.cpp
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <a href="./img/dof.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/dof_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">DOF Camera</h3>
+                        <p class="text-white leading-8 text-lg font-light">
+                        A Depth of Field (DOF) camera is placed near the boat which focusses on the statue and blurs all the background (mountain). We tried normal perspective camera, but DOF camera suits our scene description. The left side of the image is perspective camera while the right side is DOF camera.
+
+                        <h3 class="text-center sm:text-l mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/cameras/dofperspective.h
+                        </b></h3></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+                   <div class="flex-1 m-5 rounded-xl px-4 py-4 sm:px-5 sm:py-3 tm-bg-green tm-item-container">
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <a href="./img/drop.png" target="_blank" >
+                            <i class="button"></i>
+                            <img src="img/drop_thum.png" alt="Image" class="rounded-lg">
+                     
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-3 tm-menu-item">
+                        <!-- <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md"> -->
+                        <div class="ml-3 sm:ml-6">
+
+                        <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow">Special Effects</h3>
+                        <p class="text-white leading-8 text-sm font-light">
+                        We created water droplets as if they are sprinkled on the camera lens. These droplets are created using blender and they are put at random positions on a plane infront of the camera. These objects are made up of glass materials to mimic water droplet effects. This increased the number of faces for realistic effect.  
+
+<!--                         <h3 class="text-center sm:text-xl mb-2 sm:ml-3 tm-text-yellow"><b>          ./rt/materials/glass.h
+                        ./rt/materials/cooktor.h
+                        ./rt/materials/lambertian.h
+                        </b></h3> --></p>
+                        </div>                    
+                    </div>
+
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>        
+    </div>  
+    <!-- Credits -->
+    <div id="Credits" class="parallax-window" data-parallax="scroll" data-image-src="img/credit.png">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Credits</h2>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-green tm-item-container">
+
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/mountain.png" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+
+                            <a href="https://www.cgtrader.com/free-3d-models/exterior/landscape/mountain-891e2c29-7260-4b13-baa8-bc5bc38c1de4" target="_blank" >
+                                <i class="button"></i>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"><br> </br> Mountain</h3>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/boat.png" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+
+                            <a href="https://free3d.com/3d-model/boat-37697.html" target="_blank" >
+                                <i class="button"></i>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"><br> </br> Boat</h3>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/river.png" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+
+                            <a href="https://free3d.com/3d-model/ocean-with-wind-and-physics-558568.html" target="_blank" >
+                                <i class="button"></i>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"><br> </br> River</h3>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-green tm-item-container ">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-center mr-6">
+                            <a href="https://free3d.com/3d-model/lord-krishna-v1--387771.html" target="_blank" >
+                                <i class="button"></i>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"><br> </br> Statue</h3>
+                            </a>
+
+                        </div>
+                        <img src="img/krishna.png" alt="Image" class="rounded-md">
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <a href="https://www.turbosquid.com/3d-models/free-max-model-flower/1116825" target="_blank" >
+                                <i class="button"></i>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"><br> </br> Flower</h3>
+                            </a>
+
+                        </div>
+                        <img src="img/flower.png" alt="Image" class="rounded-md">
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <a href="https://www.cgtrader.com/free-3d-models/plant/other/lowpoly-pbr-rocks-and-foliage" target="_blank" >
+                                <i class="button"></i>
+                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"><br> </br> Stone</h3>
+                            </a>
+
+                        </div>
+                        <img src="img/stone.png" alt="Image" class="rounded-md">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <footer class="left-0 w-full">
+            <div class="text-green container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                <span>© 2022 Group 8 : Devikalyan Das & Pranay Raj Kamuni. <br>Template by : <a href="https://www.tooplate.com/" target="_blank" style="color: #ED820E">Toolplate</a></span>
+
+            </div>
+        </footer>
+    </div>
+
+ <!--    <div id="Team" class="parallax-window relative" data-parallax="scroll" data-image-src="img/team.png">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-green bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-yellow">About our Team</h2>
+                    <p class="mb-6 text-lg leading-8">
+                        Team Name- Group8 <br>
+                        Member 1: Devikalyan Das <br>
+                        Member 2: Pranay Raj Kamuni   
+                    </p>
+                   
+                </div>
+
+            </div>
+            <footer class="absolute bottom-0 left-0 w-full">
+                <div class="text-green container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                    <span>© 2022 Devikalyan Das, Pranay Raj Kamuni. <br>Template by : <a href="https://www.tooplate.com/" style="color: #2e8b57">Toolplate</a></span>
+
+                </div>                
+            </footer>
+        </div>        
+    </div>   -->  
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
