@@ -1,6 +1,6 @@
 # Trip-to-Vrindavan
 Rendering Competition at University of Saarland for the course Computer Graphics 1 2021/22 <br/>
-More details at this ***[Link](https://graphics.cg.uni-saarland.de/courses/cg1-2021/RC/group8/)*** (can't be accessed without VPN).<br/>
+More details at this ***[Link](https://graphics.cg.uni-saarland.de/courses/cg1-2021/RC/group8/)*** (can't be accessed without Saarland University VPN).<br/>
 Use this ***[Link](https://devikalyandas.github.io/Trip-to-Vrindavan/)*** <br/>
 This is the rendered image:<br/>
 
